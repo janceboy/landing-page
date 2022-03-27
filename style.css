@@ -1,0 +1,162 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+p,
+h2 {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero, .footer{
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+
+.links {
+    display: inline-flex;
+    gap: 25px;
+}
+
+.big {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.secondary, .link {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.left {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 300px;
+}
+
+.banana {
+    max-width: 150px;
+    max-height: 150px;
+    justify-self: center;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 6px;
+    color: #E5E7EB;
+    font-weight: bold;
+    padding: 7px 3px;
+}
+
+.btn1 {
+    border: 0;
+    max-width: 80px;
+}
+
+.infoimg {
+    max-width: 100px;
+}
+
+.info {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 0 20%;
+    margin-bottom: 60px;
+}
+
+.images {
+    margin-top: 20px;
+    display: flex;
+    flex: 1;
+    gap: 15px;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    padding: 0 20%;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-style: italic;
+}
+
+.quoter {
+    align-self: flex-end;
+}
+
+.bottom {
+    margin: 0 10%;
+    display: flex;
+    flex-direction: column;
+    background-color: #3882F6;
+    border-radius: 6px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.call {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.btn2 {
+    border-color: white;
+    border-width: 2px;
+    padding: 0 10px;
+}
+
+.footer {
+    padding: 20px;
+    color: #E5E7EB;
+    text-align: center;
+}
